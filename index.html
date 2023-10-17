@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <h1>Jogo da Velha</h1>
+  <hr>
+  <label for="player1">Jogador X:
+    <input type="text" name="player1" id="player1" placeholder="Nome...">
+  </label>
+  <label for="player2">Jogaor O:
+    <input type="text" name="player2" id="player2" placeholder="Nome...">
+  </label>
+
+  <button id="start">Play</button>
+
+  <h2>Vez de: <span id="turnPlayer"></span></h2>
+
+  <section id="gameBoard">
+    <span class="region" data-region="0.0"></span>
+    <span class="region" data-region="0.1"></span>
+    <span class="region" data-region="0.2"></span>
+    <span class="region" data-region="1.0"></span>
+    <span class="region" data-region="1.1"></span>
+    <span class="region" data-region="1.2"></span>
+    <span class="region" data-region="2.0"></span>
+    <span class="region" data-region="2.1"></span>
+    <span class="region" data-region="2.2"></span>
+  </section>
+</body>
+</html>
